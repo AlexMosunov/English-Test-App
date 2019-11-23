@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    font: 200 1.2rem Helvetica;
+}
+
+.question-container h2 {
+    text-align: center;
+}
+
+.quiz-container {
+    margin: auto;
+    width: 70%;
+}
+
+.answers-container ul{
+    list-style: none;
+    padding-left: 140px;
+}
+
+.answers-container input{
+    margin: 15px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.wrong {
+    color: red;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    font-size: 0.9rem;
+    padding: 5px 15px;
+    border-radius: 10px;
+    outline-color: #ccc;
+}
+
+.hide {
+    display: none;
+}
+
